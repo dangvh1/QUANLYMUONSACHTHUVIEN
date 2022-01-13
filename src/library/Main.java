@@ -120,7 +120,7 @@ public class Main {
 
                         break;
                     default:
-                        System.out.println("Chon menu tu 1-3, vui long chon lai: ");
+                        System.out.println("Chon menu tu 1-7, vui long chon lai: ");
                         break;
                 }
         } while (true);
