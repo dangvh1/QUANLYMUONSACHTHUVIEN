@@ -15,6 +15,14 @@ public class Person {
         this.address = address;
         this.phone = phone;
     }
+    public void inputperson(){
+        System.out.println("Nhập tên bạn đọc: ");
+        this.name = new Scanner(System.in).nextLine();
+        System.out.println("Nhập địa chỉ bạn đọc: ");
+        this.address = new Scanner(System.in).nextLine();
+        System.out.println("Nhập số điện thoại bạn đọc");
+        this.phone = new Scanner(System.in).nextLine();
+    }
 
 
     public String getName() {
