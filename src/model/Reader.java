@@ -111,6 +111,7 @@ public class Reader extends Person {
                 "id=" + id +
                 ", name='" + getName() + '\'' +
                 ", address='" + getaddress() + '\'' +
+                ", phone='" + getPhone() + '\'' +
                 ", ReaderType='" + ReaderType + '\'' +
                 '}';
     }
